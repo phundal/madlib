@@ -51,7 +51,7 @@ def main():
         # Ask if they want more fun.
         play_again = False
         replay = input("\n \nWould you like to play again (y/n) ?")
-        if replay == "y":
+        if replay == "y" or replay == "":
             play_again = True
 
 
